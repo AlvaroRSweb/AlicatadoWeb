@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>AlicatadoWeb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!--menu header-->
+    <header>
+      <div class="header-content">
+        <div class="logo">
+            <h1>Alicatados<b>Web</b></h1>
+        </div>
+        <!-- <div class="menu"id="show-menu"> -->
+
+       <!-- <nav>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i>inicio</a></li>
+            <li><a href="#"><i class="fas fa-book"></i>tutoriales</a></li>
+            <li class="menu-selected"><a href="#" class="text-menu-selected"><i class="fas fa-pencil-alt"></i>blog</a></li>
+            <li><a href="#"><i class="fas fa-phone"></i>contacto</a></li>
+        </ul>
+       </nav> -->
+
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link otro-boton active" aria-current="page" href="#" id ="mostrar-inicio"><i class="fas fa-home"></i>Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link otro-boton" href="#" id="mostrar-tutoriales" onclick="scrollToDestination()"><i class="fas fa-book"></i>Tutoriales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link otro-boton" href="#" id="mostrar-compra" onclick="cargarProductos()"><i class="fas fa-pencil-alt"></i>comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="mostrar-contacto"><i class="fas fa-phone"></i>Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- </div>   -->
+      <!-- <div id="icon-menu">
+        <i class="fa fa-bars"></i>
+
+      </div> -->
+    </header>
+    <!--portada--> 
+
+    <div class="container-all" id="move-content">
+
+        <div class="container-content" id="contacto" style="display: none;">
+            <h2>Formulario de Contacto</h2>
+
+            <form action="../php/crud/crear.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="asunto">Asunto:</label><br>
+            <input type="text" id="asunto" name="asunto" required><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            
+            <input type="submit" value="Enviar">
+            </form> 
+        </div>
+
+        <div id="productos" style="display: block;">
+          
+
+        </div>
+        <!---->
+
+    <div class="container-cover">
+    <div class="container-info-cover">
+        <h1>¡Asi todo es mas facil!</h1>
+        <p>ahorrate timpo y dinero, todo llega y el ahora ya llego</p>
+    </div>
+
+    </div>
+
+    <div class="container-content">
+        <article>
+            <h1>Revoluciona Tu Forma de Alicatar con REGULADOR DE ALTURA: ¡Di Adiós a las Reglas Tradicionales!</h1>
+
+            <p>En el mundo del alicatado, la precisión y la eficiencia son claves para lograr acabados de alta calidad en menos tiempo. Sin embargo, hasta ahora, los alicatadores han tenido que confiar en métodos tradicionales, que a menudo son tediosos y consumen mucho tiempo. Es aquí donde REGULADOR DE ALTURA marca la diferencia, introduciendo una revolución en el sector. Este innovador producto promete transformar la forma en que los profesionales alicatan, ofreciendo una solución que ahorra tiempo y esfuerzo sin comprometer la calidad.</p>
+            <H1>REGULADOR DE ALTURA</H1>
+
+             <p> es una herramienta diseñada específicamente para el sector del alicatado, pensada para facilitar el proceso de instalación de baldosas de manera más rápida y eficiente. Este producto, único en su tipo, elimina la necesidad de utilizar reglas tradicionales para alinear y nivelar las baldosas. Gracias a su tecnología avanzada, [Nombre del Producto] asegura un alicatado perfecto con un esfuerzo mínimo, permitiendo a los alicatadores completar sus proyectos en una fracción del tiempo que solían emplear.</p>
+             <H1>BENEFICIOS DEL REGULADOR DE ALTURA</H1>
+             <P>Ahorro de Tiempo: Olvídate de medir y marcar cada baldosa individualmente. REGULADOR DE ALTURA simplifica el proceso, permitiendo una colocación más rápida y precisa.
+
+                Facilidad de Uso: Su diseño intuitivo hace que REGULADOR DE ALTURA sea accesible para alicatadores de todos los niveles de experiencia, desde principiantes hasta profesionales experimentados.
+                
+                Precisión Inigualable: Gracias a su sistema avanzado, REGULADOR DE ALTURA garantiza una precisión milimétrica en cada colocación, asegurando un acabado uniforme y profesional.
+                
+                Versatilidad: Adecuado para una amplia gama de proyectos de alicatado, desde baños y cocinas hasta áreas comerciales grandes.
+                
+                Durabilidad y Confiabilidad: Construido con materiales de la más alta calidad, REGULADOR DE ALTURA está diseñado para resistir el rigor del uso diario en el lugar de trabajo.</P>
+
+                <img src="../img/regulador.jpg" alt="">
+        </article>
+
+      <div id="tutoriales" class="container-aside">
+        <aside>
+            <img src="../img/segundoregulador.jpg" alt="">
+            <h2>REGULADOR ALTURA</h2>
+            <p>El REGULADOR DE ALTURA es una innovación revolucionaria diseñada para transformar la manera en que se realiza el alicatado, tanto para profesionales como para aficionados al bricolaje. Este dispositivo se caracteriza por su capacidad de ajustar con precisión la altura de las baldosas durante la instalación, garantizando así un acabado uniforme y estéticamente agradable sin la necesidad de utilizar las tradicionales reglas o niveles.</p>
+            <a href="#"><button>seguir leyendo</button></a>
+        </aside>
+        <aside>
+            <img src="../img/imagen4.jpg" alt="">
+            <h2>REGULADOR ALTURA</h2>
+            <p>El REGULADOR DE ALTURA redefine la colocación de baldosas con una precisión sin precedentes. Compacto y revolucionario, este instrumento es la clave para alcanzar acabados impecables y uniformes en cualquier proyecto de alicatado. Su diseño intuitivo garantiza una experiencia de usuario excepcional, simplificando cada paso del proceso. Con el REGULADOR DE ALTURA, elevarás tus obras a nuevos estándares de excelencia.</p>
+           
+        </aside>
+        <aside>
+            <img src="../img/imagen5.jpg" alt="">
+            <h2>REGULADOR ALTURA</h2>
+            <p>Descubre la esencia de la innovación con el REGULADOR DE ALTURA, donde la precisión se encuentra con el arte de la construcción. Este dispositivo no es simplemente una herramienta, sino un compañero indispensable en el viaje hacia la perfección del alicatado. Diseñado para trascender los límites tradicionales de la alineación y el nivelado, el REGULADOR DE ALTURA es una sinfonía de eficiencia, precisión y facilidad de uso. Cada aspecto de su diseño ha sido cuidadosamente considerado para asegurar que la colocación de cada baldosa no solo sea exacta, sino una experiencia transformadora. Con el REGULADOR DE ALTURA, el futuro del alicatado es ahora, permitiéndote crear espacios que son verdaderas obras de arte. Su presencia en tu caja de herramientas es un testimonio de tu compromiso con la excelencia y la calidad en cada proyecto. Sumérgete en la revolución del alicatado y deja que el REGULADOR DE ALTURA te lleve a la cima de tu arte</p>
+            <a href="#"><button>seguir leyendo</button></a>
+        </aside>
+
+      </div>  
+    </div>
+
+    <div class="container-footer">
+        <footer>
+            <div class="logo-footer">
+                <img src="../img/icono.jpg" alt="">
+            </div>
+            <div class="redes-footer">
+              <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+              <a href="#"><i class="fab fa-facebook icon-redes-footer"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>  
+            </div>
+            <hr>
+            <h4>© 2024 Alvaro Romero Serrano - todos los derechos reservados</h4>
+        </footer>
+    </div>
+
+</div>
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
