@@ -4,7 +4,7 @@ Esto es una pagina web E-commer con login/registro creada con HTML , CSS , JavaS
 ## Autor -
 
 **Alvaro Romero**
-*[LinkedIn](https://www.linkedin.com/in/alvarorsweb/)
+--[LinkedIn](https://www.linkedin.com/in/alvarorsweb/)
 
 ## ver ejemplo en vivo
 []
